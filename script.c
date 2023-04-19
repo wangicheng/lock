@@ -39,7 +39,7 @@ void loop() {
           delay(3);
         }
         delay(3000);
-        for(int i=lockOpen; i<lockClose; i+=0{ //關鎖
+        for(int i=lockOpen; i<lockClose; i+=0){ //關鎖
           lock.write(i);
           delay(3);
         }
